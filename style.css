@@ -1,0 +1,122 @@
+:root {
+    --e-global-color-primary: #379eff;
+    --footer-bg-color: #120d48;
+    --white: #ffffff;
+    --btn-bg-color-1: #67b5ff;
+    --btn-bg-color-2: #4d86ff;
+  }
+
+
+a{
+    text-decoration: none;
+} 
+
+h2{
+    line-height: 61px;
+    letter-spacing: 1px;
+}
+  
+main{
+    background-color: #EEF9FF;
+    background-image: url(assets/images/Vector-3.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 32% auto;
+}
+
+.btn-primary{
+    background-color: var(--btn-bg-color-1);
+    color: #fff;
+    min-width: 3.25rem;
+    padding: 0.7em 1.764em;
+    text-align: center;
+    border-radius: 90px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    transition: all .45s;
+    background: var(--btn-bg-color-1) linear-gradient(120deg, rgba(103, 151, 255, 0) 0%, var(--btn-bg-color-2) 100%);
+    box-shadow: 0 20px 30px 0 rgb(41 112 250 / 20%);
+    border: none;
+}
+
+.homebanner-section-title{
+    color: var( --e-global-color-primary );
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.glass-water-img{
+    width: 100%;
+}
+
+.footer-bg {
+    background-color: var(--footer-bg-color);
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer .widget-title{
+    color: var(--white);
+}
+.footer-top a, .footer-top p{
+    color: var(--white);
+}
+.footer-copyright {
+    letter-spacing: 0.5px;
+    color: var(--white);
+    font-size: 0.75rem;
+}
+.widget-title:before {
+    margin-right: 0.25rem;
+}
+.widget_nav_menu ul li{
+    margin-bottom: 1rem;
+}
+
+.social-menu svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    align-self: center;
+}
+.f-bg-wave {
+    fill: var(--footer-bg-color);
+}
+
+#product-showcase-section .card{
+    margin:15px;
+    box-shadow: 0 4px 24px 0 rgb(103 151 255 / 10%), 0 12px 64px 0 rgb(103 151 255 / 10%);
+}
+.product-showcase-title{
+    color: #081F46
+}
+
+.product-img{
+    height: 300px;
+}
+section{
+    margin: 100px 0;
+}
+.highlight-header{
+    color: #379eff;
+}
+.product-showcase-section-header{
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+p, .product-showcase-section-description{
+    color: #081F46;
+    letter-spacing: 1px;
+}
+
+#ScheduleLiveDemoSection{
+    background-color: var(--footer-bg-color)
+}
+.live-demo-section-wrapper{
+    color: #ffffff;
+    padding: 100px 0px 100px 0px;
+    margin: 50px 0;
+}
